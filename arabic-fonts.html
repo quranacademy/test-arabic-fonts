@@ -1,0 +1,142 @@
+<arabic-fonts>
+  <h1>
+    <a href='/hqaweb/roman-workplace/arabic-fonts-tests/index.html'>Arabic fonts testing</a>
+  </h1>
+  
+  <form class="form">
+    
+    <div class="row gutters">
+      <div class="col col-12">
+        <div class="form-item">
+          <label>Font size</label>
+          <input oninput={ setFontSize } value={ fontSize } />
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-item form-checkboxes">
+      <label class="checkbox">
+        <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
+      </label>
+    </div>      
+
+    <div class="form-item">
+        <label>Text for checking</label>
+        <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
+    </div>    
+  </form>  
+  
+  <div class='fonts-examples'>
+    <div class='fonts-example' each={ font in fonts }>
+      <div class='fonts-example--title'>{ font }</div>
+      <div class='fonts-example--example' style={ parent.getFontStyle(font) }>
+        <raw content={ parent.nl2br(parent.currentText) }></raw>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const tag = this
+    
+    tag.fonts = [
+      'KFGQPC Uthmanic Script HAFS',
+      'UthmanTN1_Ver06',
+      'me_quranR3HOQ',
+      'Amiri',
+      'Katibeh',
+      'Lateef',
+      'Mirza',
+      'Scheherazade',
+    ]
+    
+    let params = hashToArray()
+    
+    tag.currentText = params.text ? decodeURI(params.text) : `قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ\nثُمَّ لَتُسۡ‍َٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ`
+    tag.fontSize    = params.fontSize || 30
+    tag.fontBold    = params.fontBold ? (params.fontBold === 'true') : false
+    
+    function arrayToHash(mass) {
+      var string = '';
+      var first = false;
+      for (var item in mass) {
+        if (first === false) {
+          string += item + '=' + mass[item];
+          first = true;
+        } else {
+          string += '&' + item + '=' + mass[item];
+        }
+      }
+      return string;
+    }    
+    
+    function hashToArray() {
+      var tmp = new Array();
+      var params = new Object;
+    
+      var get = location.hash;
+      if (get !== '') {
+        tmp = (get.substr(1)).split('&');
+        for (var i = 0; i < tmp.length; i++)
+        {
+          var param = tmp[i].split('=');
+          params[param[0]] = param[1];
+        }
+      }
+      return params;
+    }    
+    
+    tag.nl2br = function(str, isXhtml) {
+      // Some latest browsers when str is null return and unexpected null value
+      if (typeof str === 'undefined' || str === null) {
+        return ''
+      }
+      // Adjust comment to avoid issue on locutus.io display
+      var breakTag = (isXhtml || typeof isXhtml === 'undefined') ? '<br ' + '/>' : '<br>'
+      return (str + '')
+        .replace(/(\r\n|\n\r|\r|\n)/g, breakTag + '$1')
+    }    
+    
+    tag.setNewText = function(event) {
+      tag.currentText = event.target.value
+    }
+    
+    tag.setFontSize = function(event) {
+      tag.fontSize = event.target.value
+    }
+    
+    tag.getFontStyle = function(font) {
+      return `
+        font-family: "${font}";
+        font-size: ${tag.fontSize}px;
+        font-weight: ${tag.fontBold ? 'bold' : 'normal'};
+      `
+    }
+    
+    tag.setFontBold = function(event) {
+      tag.fontBold = event.target.checked
+    }
+    
+    tag.on('updated', function() {
+      location.hash = arrayToHash({
+        fontSize : tag.fontSize,
+        fontBold : tag.fontBold,
+        text     : tag.currentText,
+      })
+    })
+    
+  </script>
+</arabic-fonts>
+
+<raw>
+  <span></span>
+  <script>
+    var tag = this
+    
+    tag.root.innerHTML = opts.content
+    
+    this.on('update', function() {
+      tag.root.innerHTML = opts.content
+    })
+    
+  </script>
+</raw>

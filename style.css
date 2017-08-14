@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'me_quranR3HOQ';
+    src: url(fonts/me_quranR3HOQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'KFGQPC Uthmanic Script HAFS';
+    font-style: normal;
+    font-weight: 400;
+
+    src:
+        local('KFGQPC Uthmanic Script HAFS'),
+        url(fonts/uthmanichafs1-ver09.otf) format('opentype')
+    ;
+
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@font-face {
+    font-family: 'UthmanTN1_Ver06';
+    font-style: normal;
+    font-weight: 400;
+
+    src:
+        local('UthmanTN1_Ver06'),
+        url(fonts/UthmanTN1_Ver06.otf) format('opentype')
+    ;
+
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+.font-amiri {
+  font-family: Amiri;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 a {
+  color: #7575d0;
+}
+
+#app {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+textarea {
+  font-size: 20px;
+  line-height: 2;
+  font-family: 'KFGQPC Uthmanic Script HAFS';
+}
+
+.fonts-examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fonts-example {
+  margin: 5px 5px 30px 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  flex: 1 1 0;
+  direction: rtl;
+}
+
+.fonts-example--title {
+  flex: 0 0 100px;
+}
+
+.fonts-example--example {
+  line-height: 2;
+  white-space: nowrap;
+}
