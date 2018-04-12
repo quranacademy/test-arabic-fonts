@@ -1,52 +1,236 @@
 <arabic-fonts>
   <h1>
-    <a href='https://hqa-foundation.github.io/test-arabic-fonts/index.html'>Arabic fonts testing</a>
+    <a href='#'>Arabic fonts testing</a>
   </h1>
   
   <form class="form">
     
     <div class="row gutters">
-      <div class="col col-12">
+      <div class="col col-6">
         <div class="form-item">
           <label>Font size</label>
-          <input oninput={ setFontSize } value={ fontSize } />
+          <input type='number' oninput={ setFontSize } value={ fontSize } />
+        </div>
+      </div>
+      <div class="col col-6">
+        <div class="form-item form-checkboxes">
+          <label class="checkbox">
+            <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
+          </label>
         </div>
       </div>
     </div>
-    
-    <div class="form-item form-checkboxes">
-      <label class="checkbox">
-        <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
-      </label>
-    </div>      
-
     <div class="form-item">
-        <label>Text for checking</label>
-        <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
-    </div>    
-  </form>  
-  
-  <div class='fonts-examples'>
-    <div class='fonts-example' each={ font in fonts }>
-      <div class='fonts-example--title'>{ font }</div>
-      <div class='fonts-example--example' style={ parent.getFontStyle(font) }>
-        <raw content={ parent.nl2br(parent.currentText) }></raw>
-      </div>
+      <label>Text for checking</label>
+      <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
     </div>
-  </div>
+    </form>
+    
+    <table class='fonts-examples bordered striped'>
+      <thead>
+        <th>Font name</th> <th>Font example</th>
+      </thead>
+      <tbody>
+        <tr class='fonts-example' each={ font in fonts }>
+          <td class='fonts-example--title'>{ font }</td>
+          <td class='fonts-example--example' style={ parent.getFontStyle(font) }>
+            <raw content={ parent.nl2br(parent.currentText) }></raw>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   
   <script>
     const tag = this
     
     tag.fonts = [
-      'KFGQPC Uthmanic Script HAFS',
-      'UthmanTN1_Ver06',
+      '471btehran',
+      'ah-moharram-bold',
+      'albayan',
+      'al-gemah-alhoda',
+      'algeria',
+      'alhorr',
+      'alhurra',
+      'al-majd',
+      'almawadah',
+      'almushaf',
+      'alnaqaa',
+      'alqusair',
+      'alshohadaa',
+      'Amiri-BoldSlanted',
+      'Amiri-BoldSlanted',
+      'amiri-bold',
+      'Amiri-Bold',
+      'Amiri-Bold',
+      'AmiriQuranColored',
+      'AmiriQuranColored',
+      'amiri-quran',
+      'AmiriQuran',
+      'AmiriQuran',
+      'amiri-regular',
+      'Amiri-Regular',
+      'Amiri-Regular',
+      'amiri-slanted',
+      'Amiri-Slanted',
+      'Amiri-Slanted',
+      'aqeeq',
+      'arabswell-1',
+      'aref-ruqaa',
+      'arwa',
+      'asmaa',
+      'assaf',
+      'aures',
+      'baghdad',
+      'bahij',
+      'BArabics',
+      'baran',
+      'Basim-Marah-Beh-Light',
+      'b-compset',
+      'bdavat',
+      'bedayah',
+      'bein-normal',
+      'bein',
+      'b-hamid',
+      'bokra',
+      'bon',
+      'boutros-ads',
+      'b-sepideh (1)',
+      'b-sepideh',
+      'cairo-bold',
+      'cairo-extra-light',
+      'cairo-light',
+      'cairo',
+      'DecoType-Thuluth',
+      'diana-light',
+      'diana-regular',
+      'Diwani-Bent',
+      'Diwanltr',
+      'DroidKufi-Regular',
+      'DroidNaskh-Regular',
+      'droid-sans',
+      'elmessiri-bold',
+      'elmessiri-light',
+      'esfahan',
+      'Fanni',
+      'fantezy',
+      'farsi-simple-bold',
+      'fixed-kufi',
+      'flat-jooza-regular',
+      'ghala-bold',
+      'ghala',
+      'hala',
+      'Hamada_light_font',
+      'hama-regular',
+      'harmattan',
+      'hayah',
+      'helal',
+      'homa',
+      'Ibtisam',
+      'insan',
+      'ishraq',
+      'israr-syria',
+      'jannat',
+      'jazeera-light',
+      'jazeera',
+      'jomhuria',
+      'jooza-regular',
+      'jordan',
+      'kacst-farsi',
+      'kamran',
+      'katibeh',
+      'KawkabMono-Regular',
+      'kufi',
+      'lamar',
+      'lateef',
+      'lemonada-bold',
+      'lemonada-light',
+      'lemonada',
+      'mada-bold',
+      'mada-light',
+      'mada',
+      'maghrebi',
+      'maidan',
+      'mbc',
       'me_quranR3HOQ',
-      'Amiri',
-      'Katibeh',
-      'Lateef',
-      'Mirza',
-      'Scheherazade',
+      'milano',
+      'mirza-bold',
+      'mirza-medium',
+      'mirza',
+      'motairah-light',
+      'motairah',
+      'motken',
+      'muslimah',
+      'nawar',
+      'neckar (1)',
+      'neckar-bold',
+      'neckar',
+      'noorehuda',
+      'noto-urdu',
+      'Old-Antic-Bold',
+      'old-antic-decorative',
+      'omar',
+      'osama',
+      'rabat',
+      'rakkas',
+      'rawi',
+      'rawy-bold',
+      'rawy-thin',
+      'reem-kufi',
+      'rsail (1)',
+      'rsail-bold',
+      'rsail-light',
+      'rsail',
+      'rustam_quranR3HOQ',
+      'sabgha',
+      'sadiyah',
+      'sahlnaskh-regular',
+      'sara',
+      'saudi',
+      'setareh',
+      'shahd-bold',
+      'shahd',
+      'shams',
+      'sheba',
+      'shekari',
+      'shiraz',
+      'shorooq',
+      'sky-bold',
+      'sky',
+      'smartman',
+      'spirit-of-doha',
+      'stc',
+      'stoor',
+      'strick',
+      'Sukar-Black',
+      'Sukar-Bold',
+      'Sukar-Regular',
+      'tachkili',
+      'taha-naskh',
+      'tanseek',
+      'taqniya',
+      'tasmeem-med',
+      'Thabit',
+      'thameen',
+      'themixarab',
+      'thuluth-decorated',
+      'toyor-aljanah',
+      'uthmanichafs1-ver09',
+      'UthmanTN1_Ver06',
+      'vip-hakm-bold',
+      'vip-hakm-thin',
+      'vip-hakm',
+      'vip-tim-black',
+      'vip-tim-bold',
+      'vip-tim-light',
+      'vip-tim',
+      'yaraa-regular',
+      'yaraa',
+      'yassin',
+      'zahra-bold',
+      'zahra',
+      'KFGQPC Uthmanic Script HAFS',
+      //----External fonts---
+      'Scheherazade'
     ]
     
     let params = hashToArray()
