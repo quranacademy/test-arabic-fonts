@@ -94,7 +94,7 @@
       'bokra',
       'bon',
       'boutros-ads',
-      'b-sepideh (1)',
+      'b-sepideh_1',
       'b-sepideh',
       'cairo-bold',
       'cairo-extra-light',
@@ -161,7 +161,7 @@
       'motken',
       'muslimah',
       'nawar',
-      'neckar (1)',
+      'neckar_1',
       'neckar-bold',
       'neckar',
       'noorehuda',
@@ -176,7 +176,7 @@
       'rawy-bold',
       'rawy-thin',
       'reem-kufi',
-      'rsail (1)',
+      'rsail_1',
       'rsail-bold',
       'rsail-light',
       'rsail',
@@ -235,7 +235,7 @@
     
     let params = hashToArray()
     
-    tag.currentText = params.text ? decodeURI(params.text) : `قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ\nثُمَّ لَتُسۡ‍َٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ`
+    tag.currentText = params.text ? decodeURI(params.text) : `قُلۡ يَٰٓأَيُّهَا قُلْ يَا أَيُّهَا الْكَافِرُونَ\nثثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
     tag.fontSize    = params.fontSize || 30
     tag.fontBold    = params.fontBold ? (params.fontBold === 'true') : false
     
@@ -293,6 +293,7 @@
         font-family: "${font}";
         font-size: ${tag.fontSize}px;
         font-weight: ${tag.fontBold ? 'bold' : 'normal'};
+        line-height: ${tag.fontSize * 1.5}px;
       `
     }
     
