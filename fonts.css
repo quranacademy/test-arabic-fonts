@@ -3,907 +3,1090 @@
     src: local('471btehran'), url(fonts/471btehran.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'ah-moharram-bold';
     font-weight: bold;
     src: local('ah-moharram-bold'), url(fonts/ah-moharram-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'albayan';
     src: local('albayan'), url(fonts/albayan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'al-gemah-alhoda';
     src: local('al-gemah-alhoda'), url(fonts/al-gemah-alhoda.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'algeria';
     src: local('algeria'), url(fonts/algeria.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'alhorr';
     src: local('alhorr'), url(fonts/alhorr.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'alhurra';
     src: local('alhurra'), url(fonts/alhurra.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'al-majd';
     src: local('al-majd'), url(fonts/al-majd.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'almawadah';
     src: local('almawadah'), url(fonts/almawadah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'almushaf';
     src: local('almushaf'), url(fonts/almushaf.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'alnaqaa';
     src: local('alnaqaa'), url(fonts/alnaqaa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'alqusair';
     src: local('alqusair'), url(fonts/alqusair.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'alshohadaa';
     src: local('alshohadaa'), url(fonts/alshohadaa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Amiri-BoldSlanted';
     font-weight: bold;
     src: local('Amiri-BoldSlanted'), url(fonts/Amiri-BoldSlanted.woff) format('woff'), url(fonts/Amiri-BoldSlanted.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'amiri-bold';
     font-weight: bold;
     src: local('amiri-bold'), url(fonts/amiri-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Amiri-Bold';
     font-weight: bold;
     src: local('Amiri-Bold'), url(fonts/Amiri-Bold.woff) format('woff'), url(fonts/Amiri-Bold.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'AmiriQuranColored';
     src: local('AmiriQuranColored'), url(fonts/AmiriQuranColored.woff) format('woff'), url(fonts/AmiriQuranColored.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'amiri-quran';
     src: local('amiri-quran'), url(fonts/amiri-quran.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'AmiriQuran';
     src: local('AmiriQuran'), url(fonts/AmiriQuran.woff) format('woff'), url(fonts/AmiriQuran.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'amiri-regular';
     src: local('amiri-regular'), url(fonts/amiri-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Amiri-Regular';
     src: local('Amiri-Regular'), url(fonts/Amiri-Regular.woff) format('woff'), url(fonts/Amiri-Regular.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'amiri-slanted';
     src: local('amiri-slanted'), url(fonts/amiri-slanted.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Amiri-Slanted';
     src: local('Amiri-Slanted'), url(fonts/Amiri-Slanted.woff) format('woff'), url(fonts/Amiri-Slanted.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'aqeeq';
     src: local('aqeeq'), url(fonts/aqeeq.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'arabswell-1';
     src: local('arabswell-1'), url(fonts/arabswell-1.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'aref-ruqaa';
     src: local('aref-ruqaa'), url(fonts/aref-ruqaa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'arwa';
     src: local('arwa'), url(fonts/arwa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'asmaa';
     src: local('asmaa'), url(fonts/asmaa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'assaf';
     src: local('assaf'), url(fonts/assaf.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'aures';
     src: local('aures'), url(fonts/aures.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'baghdad';
     src: local('baghdad'), url(fonts/baghdad.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bahij';
     src: local('bahij'), url(fonts/bahij.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'BArabics';
     src: local('BArabics'), url(fonts/BArabics.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'baran';
     src: local('baran'), url(fonts/baran.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Basim-Marah-Beh-Light';
     src: local('Basim-Marah-Beh-Light'), url(fonts/Basim-Marah-Beh-Light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'b-compset';
     src: local('b-compset'), url(fonts/b-compset.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bdavat';
     src: local('bdavat'), url(fonts/bdavat.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bedayah';
     src: local('bedayah'), url(fonts/bedayah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bein-normal';
     src: local('bein-normal'), url(fonts/bein-normal.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bein';
     src: local('bein'), url(fonts/bein.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'b-hamid';
     src: local('b-hamid'), url(fonts/b-hamid.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bokra';
     src: local('bokra'), url(fonts/bokra.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'bon';
     src: local('bon'), url(fonts/bon.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'boutros-ads';
     src: local('boutros-ads'), url(fonts/boutros-ads.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'b-sepideh_1';
     src: local('b-sepideh_1'), url(fonts/b-sepideh_1.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'b-sepideh';
     src: local('b-sepideh'), url(fonts/b-sepideh.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'cairo-bold';
     font-weight: bold;
     src: local('cairo-bold'), url(fonts/cairo-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'cairo-extra-light';
     src: local('cairo-extra-light'), url(fonts/cairo-extra-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'cairo-light';
     src: local('cairo-light'), url(fonts/cairo-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'cairo';
     src: local('cairo'), url(fonts/cairo.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'DecoType-Thuluth';
     src: local('DecoType-Thuluth'), url(fonts/DecoType-Thuluth.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'diana-light';
     src: local('diana-light'), url(fonts/diana-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'diana-regular';
     src: local('diana-regular'), url(fonts/diana-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Diwani-Bent';
     src: local('Diwani-Bent'), url(fonts/Diwani-Bent.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Diwanltr';
     src: local('Diwanltr'), url(fonts/Diwanltr.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'DroidKufi-Regular';
     src: local('DroidKufi-Regular'), url(fonts/DroidKufi-Regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'DroidNaskh-Regular';
     src: local('DroidNaskh-Regular'), url(fonts/DroidNaskh-Regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'droid-sans';
     src: local('droid-sans'), url(fonts/droid-sans.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'elmessiri-bold';
     font-weight: bold;
     src: local('elmessiri-bold'), url(fonts/elmessiri-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'elmessiri-light';
     src: local('elmessiri-light'), url(fonts/elmessiri-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'esfahan';
     src: local('esfahan'), url(fonts/esfahan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Fanni';
     src: local('Fanni'), url(fonts/Fanni.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'fantezy';
     src: local('fantezy'), url(fonts/fantezy.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'farsi-simple-bold';
     font-weight: bold;
     src: local('farsi-simple-bold'), url(fonts/farsi-simple-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'fixed-kufi';
     src: local('fixed-kufi'), url(fonts/fixed-kufi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'flat-jooza-regular';
     src: local('flat-jooza-regular'), url(fonts/flat-jooza-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'ghala-bold';
     font-weight: bold;
     src: local('ghala-bold'), url(fonts/ghala-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'ghala';
     src: local('ghala'), url(fonts/ghala.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'hala';
     src: local('hala'), url(fonts/hala.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Hamada_light_font';
     src: local('Hamada_light_font'), url(fonts/Hamada_light_font.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'hama-regular';
     src: local('hama-regular'), url(fonts/hama-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'harmattan';
     src: local('harmattan'), url(fonts/harmattan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'hayah';
     src: local('hayah'), url(fonts/hayah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'helal';
     src: local('helal'), url(fonts/helal.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'homa';
     src: local('homa'), url(fonts/homa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Ibtisam';
     src: local('Ibtisam'), url(fonts/Ibtisam.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'insan';
     src: local('insan'), url(fonts/insan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'ishraq';
     src: local('ishraq'), url(fonts/ishraq.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'israr-syria';
     src: local('israr-syria'), url(fonts/israr-syria.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jannat';
     src: local('jannat'), url(fonts/jannat.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jazeera-light';
     src: local('jazeera-light'), url(fonts/jazeera-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jazeera';
     src: local('jazeera'), url(fonts/jazeera.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jomhuria';
     src: local('jomhuria'), url(fonts/jomhuria.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jooza-regular';
     src: local('jooza-regular'), url(fonts/jooza-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'jordan';
     src: local('jordan'), url(fonts/jordan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'kacst-farsi';
     src: local('kacst-farsi'), url(fonts/kacst-farsi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'kamran';
     src: local('kamran'), url(fonts/kamran.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'katibeh';
     src: local('katibeh'), url(fonts/katibeh.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'KawkabMono-Regular';
     src: local('KawkabMono-Regular'), url(fonts/KawkabMono-Regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'kufi';
     src: local('kufi'), url(fonts/kufi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'lamar';
     src: local('lamar'), url(fonts/lamar.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'lateef';
     src: local('lateef'), url(fonts/lateef.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'lemonada-bold';
     font-weight: bold;
     src: local('lemonada-bold'), url(fonts/lemonada-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'lemonada-light';
     src: local('lemonada-light'), url(fonts/lemonada-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'lemonada';
     src: local('lemonada'), url(fonts/lemonada.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mada-bold';
     font-weight: bold;
     src: local('mada-bold'), url(fonts/mada-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mada-light';
     src: local('mada-light'), url(fonts/mada-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mada';
     src: local('mada'), url(fonts/mada.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'maghrebi';
     src: local('maghrebi'), url(fonts/maghrebi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'maidan';
     src: local('maidan'), url(fonts/maidan.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mbc';
     src: local('mbc'), url(fonts/mbc.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'me_quranR3HOQ';
     src: local('me_quranR3HOQ'), url(fonts/me_quranR3HOQ.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
+@font-face {
+    font-family: 'me_quran2';
+    src: local('me_quran2'), url(fonts/me_quran2.ttf) format('truetype');
+    /*unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;*/
+}
+
 @font-face {
     font-family: 'milano';
     src: local('milano'), url(fonts/milano.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mirza-bold';
     font-weight: bold;
     src: local('mirza-bold'), url(fonts/mirza-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mirza-medium';
     src: local('mirza-medium'), url(fonts/mirza-medium.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'mirza';
     src: local('mirza'), url(fonts/mirza.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'motairah-light';
     src: local('motairah-light'), url(fonts/motairah-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'motairah';
     src: local('motairah'), url(fonts/motairah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'motken';
     src: local('motken'), url(fonts/motken.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'muslimah';
     src: local('muslimah'), url(fonts/muslimah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'nawar';
     src: local('nawar'), url(fonts/nawar.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'neckar_1';
     src: local('neckar_1'), url(fonts/neckar_1.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'neckar-bold';
     font-weight: bold;
     src: local('neckar-bold'), url(fonts/neckar-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'neckar';
     src: local('neckar'), url(fonts/neckar.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'noorehuda';
     src: local('noorehuda'), url(fonts/noorehuda.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'noto-urdu';
     src: local('noto-urdu'), url(fonts/noto-urdu.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Old-Antic-Bold';
     font-weight: bold;
     src: local('Old-Antic-Bold'), url(fonts/Old-Antic-Bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'old-antic-decorative';
     src: local('old-antic-decorative'), url(fonts/old-antic-decorative.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'omar';
     src: local('omar'), url(fonts/omar.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'osama';
     src: local('osama'), url(fonts/osama.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rabat';
     src: local('rabat'), url(fonts/rabat.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rakkas';
     src: local('rakkas'), url(fonts/rakkas.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rawi';
     src: local('rawi'), url(fonts/rawi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rawy-bold';
     font-weight: bold;
     src: local('rawy-bold'), url(fonts/rawy-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rawy-thin';
     src: local('rawy-thin'), url(fonts/rawy-thin.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'reem-kufi';
     src: local('reem-kufi'), url(fonts/reem-kufi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rsail_1';
     src: local('rsail_1'), url(fonts/rsail_1.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rsail-bold';
     font-weight: bold;
     src: local('rsail-bold'), url(fonts/rsail-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rsail-light';
     src: local('rsail-light'), url(fonts/rsail-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rsail';
     src: local('rsail'), url(fonts/rsail.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'rustam_quranR3HOQ';
     src: local('rustam_quranR3HOQ'), url(fonts/rustam_quranR3HOQ.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sabgha';
     src: local('sabgha'), url(fonts/sabgha.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sadiyah';
     src: local('sadiyah'), url(fonts/sadiyah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sahlnaskh-regular';
     src: local('sahlnaskh-regular'), url(fonts/sahlnaskh-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sara';
     src: local('sara'), url(fonts/sara.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'saudi';
     src: local('saudi'), url(fonts/saudi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'setareh';
     src: local('setareh'), url(fonts/setareh.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shahd-bold';
     font-weight: bold;
     src: local('shahd-bold'), url(fonts/shahd-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shahd';
     src: local('shahd'), url(fonts/shahd.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shams';
     src: local('shams'), url(fonts/shams.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sheba';
     src: local('sheba'), url(fonts/sheba.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shekari';
     src: local('shekari'), url(fonts/shekari.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shiraz';
     src: local('shiraz'), url(fonts/shiraz.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'shorooq';
     src: local('shorooq'), url(fonts/shorooq.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sky-bold';
     font-weight: bold;
     src: local('sky-bold'), url(fonts/sky-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'sky';
     src: local('sky'), url(fonts/sky.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'smartman';
     src: local('smartman'), url(fonts/smartman.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'spirit-of-doha';
     src: local('spirit-of-doha'), url(fonts/spirit-of-doha.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'stc';
     src: local('stc'), url(fonts/stc.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'stoor';
     src: local('stoor'), url(fonts/stoor.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'strick';
     src: local('strick'), url(fonts/strick.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Sukar-Black';
     src: local('Sukar-Black'), url(fonts/Sukar-Black.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Sukar-Bold';
     font-weight: bold;
     src: local('Sukar-Bold'), url(fonts/Sukar-Bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Sukar-Regular';
     src: local('Sukar-Regular'), url(fonts/Sukar-Regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'tachkili';
     src: local('tachkili'), url(fonts/tachkili.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'taha-naskh';
     src: local('taha-naskh'), url(fonts/taha-naskh.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'tanseek';
     src: local('tanseek'), url(fonts/tanseek.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'taqniya';
     src: local('taqniya'), url(fonts/taqniya.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'tasmeem-med';
     src: local('tasmeem-med'), url(fonts/tasmeem-med.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'Thabit';
     src: local('Thabit'), url(fonts/Thabit.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'thameen';
     src: local('thameen'), url(fonts/thameen.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'themixarab';
     src: local('themixarab'), url(fonts/themixarab.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'thuluth-decorated';
     src: local('thuluth-decorated'), url(fonts/thuluth-decorated.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'toyor-aljanah';
     src: local('toyor-aljanah'), url(fonts/toyor-aljanah.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'uthmanichafs1-ver09';
     src: local('uthmanichafs1-ver09'), url(fonts/uthmanichafs1-ver09.otf) format('opentype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'UthmanTN1_Ver06';
     src: local('UthmanTN1_Ver06'), url(fonts/UthmanTN1_Ver06.otf) format('opentype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-hakm-bold';
     font-weight: bold;
     src: local('vip-hakm-bold'), url(fonts/vip-hakm-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-hakm-thin';
     src: local('vip-hakm-thin'), url(fonts/vip-hakm-thin.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-hakm';
     src: local('vip-hakm'), url(fonts/vip-hakm.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-tim-black';
     src: local('vip-tim-black'), url(fonts/vip-tim-black.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-tim-bold';
     font-weight: bold;
     src: local('vip-tim-bold'), url(fonts/vip-tim-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-tim-light';
     src: local('vip-tim-light'), url(fonts/vip-tim-light.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'vip-tim';
     src: local('vip-tim'), url(fonts/vip-tim.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'yaraa-regular';
     src: local('yaraa-regular'), url(fonts/yaraa-regular.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'yaraa';
     src: local('yaraa'), url(fonts/yaraa.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'yassin';
     src: local('yassin'), url(fonts/yassin.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'zahra-bold';
     font-weight: bold;
     src: local('zahra-bold'), url(fonts/zahra-bold.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'zahra';
     src: local('zahra'), url(fonts/zahra.ttf) format('truetype');
