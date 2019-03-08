@@ -270,33 +270,35 @@
     }
 
     tag.on('mount', function() {
-      const params = parseParamsFromHash()
-
-      tag.currentText = params.text ? decodeURI(params.text) : `قُلْ يَا أَيُّهَا الْكَافِرُونَ
-  ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
-      tag.fontSize = params.fontSize || 30
-      tag.fontBold = params.fontBold ? (params.fontBold === 'true') : false
-    })
+      parseParamsFromHash();
+    });
 
     tag.on('updated', function() {
-      location.hash = buildHash({
+      const hash = buildHash({
         fontSize : tag.fontSize,
         fontBold : tag.fontBold,
         text     : tag.currentText,
-      })
-    })
+      });
+
+      history.replaceState(null, null, hash)
+    });
 
     function parseParamsFromHash() {
-      const result = {};
+      const params = {};
       const segments = location.hash.substr(1).split('&');
 
       segments.forEach(function (segment) {
         let param = segment.split('=');
 
-        result[param[0]] = param[1];
+        params[param[0]] = param[1];
       })
 
-      return result
+      tag.currentText = params.text ? decodeURI(params.text) : `قُلْ يَا أَيُّهَا الْكَافِرُونَ
+  ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
+      tag.fontSize = params.fontSize || 30
+      tag.fontBold = params.fontBold ? params.fontBold === 'true' : false
+
+      tag.update()
     }
 
     function buildHash(params) {
@@ -306,7 +308,7 @@
         segments.push(name + '=' + encodeURI(params[name]))
       }
 
-      return segments.join('&');
+      return '#' + segments.join('&');
     }
   </script>
 </arabic-fonts>
