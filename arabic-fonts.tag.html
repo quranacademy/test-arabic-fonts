@@ -2,9 +2,9 @@
   <h1>
     <a href='#'>Arabic fonts testing</a>
   </h1>
-  
+
   <form class="form">
-    
+
     <div class="row gutters">
       <div class="col col-6">
         <div class="form-item">
@@ -25,7 +25,7 @@
       <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
     </div>
     </form>
-    
+
     <table class='fonts-examples bordered striped'>
       <thead>
         <th>Font name</th> <th>Font example</th>
@@ -39,10 +39,10 @@
         </tr>
       </tbody>
     </table>
-  
+
   <script>
     const tag = this
-    
+
     tag.fonts = [
       '471btehran',
       'ah-moharram-bold',
@@ -232,63 +232,27 @@
       //----External fonts---
       'Scheherazade'
     ]
-    
-    let params = hashToArray()
-    
-    tag.currentText = params.text ? decodeURI(params.text) : `قُلْ يَا أَيُّهَا الْكَافِرُونَ
-ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
-    tag.fontSize    = params.fontSize || 30
-    tag.fontBold    = params.fontBold ? (params.fontBold === 'true') : false
-    
-    function arrayToHash(mass) {
-      var string = '';
-      var first = false;
-      for (var item in mass) {
-        if (first === false) {
-          string += item + '=' + mass[item];
-          first = true;
-        } else {
-          string += '&' + item + '=' + mass[item];
-        }
-      }
-      return string;
-    }    
-    
-    function hashToArray() {
-      var tmp = new Array();
-      var params = new Object;
-    
-      var get = location.hash;
-      if (get !== '') {
-        tmp = (get.substr(1)).split('&');
-        for (var i = 0; i < tmp.length; i++)
-        {
-          var param = tmp[i].split('=');
-          params[param[0]] = param[1];
-        }
-      }
-      return params;
-    }    
-    
+
     tag.nl2br = function(str, isXhtml) {
       // Some latest browsers when str is null return and unexpected null value
       if (typeof str === 'undefined' || str === null) {
         return ''
       }
+
       // Adjust comment to avoid issue on locutus.io display
-      var breakTag = (isXhtml || typeof isXhtml === 'undefined') ? '<br ' + '/>' : '<br>'
-      return (str + '')
-        .replace(/(\r\n|\n\r|\r|\n)/g, breakTag + '$1')
-    }    
-    
+      const breakTag = (isXhtml || typeof isXhtml === 'undefined') ? '<br ' + '/>' : '<br>'
+
+      return str.replace(/(\r\n|\n\r|\r|\n)/g, breakTag + '$1')
+    }
+
     tag.setNewText = function(event) {
       tag.currentText = event.target.value
     }
-    
+
     tag.setFontSize = function(event) {
       tag.fontSize = event.target.value
     }
-    
+
     tag.getFontStyle = function(font) {
       return `
         font-family: "${font}";
@@ -297,32 +261,63 @@
         line-height: ${tag.fontSize * 1.5}px;
       `
     }
-    
+
     tag.setFontBold = function(event) {
       tag.fontBold = event.target.checked
     }
-    
+
+    tag.on('mount', function() {
+      const params = parseParamsFromHash()
+
+      tag.currentText = params.text ? decodeURI(params.text) : `قُلْ يَا أَيُّهَا الْكَافِرُونَ
+  ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
+      tag.fontSize = params.fontSize || 30
+      tag.fontBold = params.fontBold ? (params.fontBold === 'true') : false
+    })
+
     tag.on('updated', function() {
-      location.hash = arrayToHash({
+      location.hash = buildHash({
         fontSize : tag.fontSize,
         fontBold : tag.fontBold,
         text     : tag.currentText,
       })
     })
-    
+
+    function parseParamsFromHash() {
+      const result = {};
+      const segments = location.hash.substr(1).split('&');
+
+      segments.forEach(function (segment) {
+        let param = segment.split('=');
+
+        result[param[0]] = param[1];
+      })
+
+      return result
+    }
+
+    function buildHash(params) {
+      const segments = []
+
+      for (const name in params) {
+        segments.push(name + '=' + encodeURI(params[name]))
+      }
+
+      return segments.join('&');
+    }
   </script>
 </arabic-fonts>
 
 <raw>
   <span></span>
   <script>
-    var tag = this
-    
+    const tag = this
+
     tag.root.innerHTML = opts.content
-    
+
     this.on('update', function() {
       tag.root.innerHTML = opts.content
     })
-    
+
   </script>
 </raw>
