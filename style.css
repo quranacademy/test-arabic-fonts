@@ -13,6 +13,11 @@ body {
 
 .title a {
     color: #7575d0;
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
 }
 
 #app {
@@ -36,4 +41,8 @@ textarea {
 
 .form {
     margin-top: 2rem;
+}
+
+.form__font-size {
+    width: 200px;
 }

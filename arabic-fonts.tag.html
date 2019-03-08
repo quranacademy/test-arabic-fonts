@@ -1,6 +1,6 @@
 <arabic-fonts>
   <h1 class="title">
-    <a href='#'>Arabic fonts testing</a>
+    <a href="#">Arabic Fonts Testing</a>
   </h1>
 
   <div class="github-link-wrap">
@@ -10,38 +10,41 @@
   </div>
 
   <form class="form">
-    <div class="row gutters">
-      <div class="col col-6">
-        <div class="form-item">
-          <label>Font size</label>
-          <input type='number' oninput={ setFontSize } value={ fontSize } />
-        </div>
-        <div class="form-item form-checkboxes">
-          <label class="checkbox">
-            <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
-          </label>
-        </div>
-      </div>
-    </div>
     <div class="form-item">
       <label>Text for checking</label>
       <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
     </div>
-    </form>
 
-    <table class='fonts-examples bordered striped'>
-      <thead>
-        <th>Font name</th> <th>Font example</th>
-      </thead>
-      <tbody>
-        <tr class='fonts-example' each={ font in fonts }>
-          <td class='fonts-example--title'>{ font }</td>
-          <td class='fonts-example--example' style={ parent.getFontStyle(font) }>
-            <raw content={ parent.nl2br(parent.currentText) }></raw>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="form-item form__font-size">
+      <label>Font size</label>
+      <input type="number" oninput={ setFontSize } value={ fontSize } />
+    </div>
+
+    <div class="form-item form-checkboxes">
+      <label class="checkbox">
+        <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
+      </label>
+    </div>
+
+    <div class="form-item">
+      <label>Search</label>
+      <input type="text" oninput={ setFontsSearchQuery } value={ fontsSearchQuery } />
+    </div>
+  </form>
+
+  <table class="fonts-examples bordered striped">
+    <thead>
+      <th>Font name</th> <th>Font example</th>
+    </thead>
+    <tbody>
+      <tr class="fonts-example" each={ font in getFonts() }>
+        <td class="fonts-example--title">{ font }</td>
+        <td class="fonts-example--example" style={ parent.getFontStyle(font) }>
+          <raw content={ parent.nl2br(parent.currentText) }></raw>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <script>
     const tag = this
@@ -237,6 +240,18 @@
       'Scheherazade'
     ]
 
+    tag.fontsSearchQuery = ''
+
+    tag.getFonts = function () {
+        if (tag.fontsSearchQuery === '') {
+          return tag.fonts
+        }
+
+        return tag.fonts.filter(function (font) {
+          return font.indexOf(tag.fontsSearchQuery) !== -1;
+        });
+    }
+
     tag.nl2br = function(str, isXhtml) {
       // Some latest browsers when str is null return and unexpected null value
       if (typeof str === 'undefined' || str === null) {
@@ -246,7 +261,7 @@
       // Adjust comment to avoid issue on locutus.io display
       const breakTag = (isXhtml || typeof isXhtml === 'undefined') ? '<br ' + '/>' : '<br>'
 
-      return str.replace(/(\r\n|\n\r|\r|\n)/g, breakTag + '$1')
+      return str.replace(/(\r\n|\n\r|\r|\n)/g, breakTag)
     }
 
     tag.setNewText = function(event) {
@@ -255,6 +270,10 @@
 
     tag.setFontSize = function(event) {
       tag.fontSize = event.target.value
+    }
+
+    tag.setFontsSearchQuery = function(event) {
+      tag.fontsSearchQuery = event.target.value
     }
 
     tag.getFontStyle = function(font) {
