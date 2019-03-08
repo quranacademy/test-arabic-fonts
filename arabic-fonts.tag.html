@@ -250,7 +250,7 @@
         }
 
         return tag.fonts.filter(function (font) {
-          return font.indexOf(tag.fontsSearchQuery) !== -1;
+          return font.toLowerCase().indexOf(tag.fontsSearchQuery.toLowerCase()) !== -1;
         });
     }
 
