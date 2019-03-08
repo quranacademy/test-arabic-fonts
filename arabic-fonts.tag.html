@@ -12,9 +12,7 @@
   <form class="form">
     <div class="form-item">
       <label>Text for checking</label>
-      <textarea oninput={ setNewText } rows="2" dir="rtl">
-        { currentText }
-      </textarea>
+      <textarea oninput={ setNewText } rows="2" dir="rtl" value={ currentText }/>
     </div>
 
     <div class="form-item form__font-size">
