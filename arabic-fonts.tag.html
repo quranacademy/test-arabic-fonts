@@ -262,7 +262,7 @@
       // Adjust comment to avoid issue on locutus.io display
       const breakTag = (isXhtml || typeof isXhtml === 'undefined') ? '<br ' + '/>' : '<br>'
 
-      return str.replace(/(\r\n|\n\r|\r|\n)/g, breakTag)
+      return str.replace(/(\r\n|\n\r|\r|\n)/g, breakTag);
     }
 
     tag.setNewText = function(event) {
@@ -301,7 +301,7 @@
         text     : tag.currentText,
       });
 
-      history.replaceState(null, null, hash)
+      history.replaceState(null, null, hash);
     });
 
     function parseParamsFromHash() {
@@ -312,21 +312,21 @@
         let param = segment.split('=');
 
         params[param[0]] = param[1];
-      })
+      });
 
       tag.currentText = params.text ? decodeURI(params.text) : `قُلْ يَا أَيُّهَا الْكَافِرُونَ
   ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ`
       tag.fontSize = params.fontSize || 30
       tag.fontBold = params.fontBold ? params.fontBold === 'true' : false
 
-      tag.update()
+      tag.update();
     }
 
     function buildHash(params) {
       const segments = []
 
       for (const name in params) {
-        segments.push(name + '=' + encodeURI(params[name]))
+        segments.push(name + '=' + encodeURI(params[name]));
       }
 
       return '#' + segments.join('&');
@@ -343,6 +343,6 @@
 
     this.on('update', function() {
       tag.root.innerHTML = opts.content
-    })
+    });
   </script>
 </raw>
