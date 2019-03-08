@@ -1,18 +1,21 @@
 <arabic-fonts>
-  <h1>
+  <h1 class="title">
     <a href='#'>Arabic fonts testing</a>
   </h1>
 
-  <form class="form">
+  <div class="github-link-wrap">
+    <a href="https://github.com/quranacademy/test-arabic-fonts" target="_blank" class="github-link">
+      View source on GitHub
+    </a>
+  </div>
 
+  <form class="form">
     <div class="row gutters">
       <div class="col col-6">
         <div class="form-item">
           <label>Font size</label>
           <input type='number' oninput={ setFontSize } value={ fontSize } />
         </div>
-      </div>
-      <div class="col col-6">
         <div class="form-item form-checkboxes">
           <label class="checkbox">
             <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
@@ -318,6 +321,5 @@
     this.on('update', function() {
       tag.root.innerHTML = opts.content
     })
-
   </script>
 </raw>

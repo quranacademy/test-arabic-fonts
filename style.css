@@ -1,19 +1,39 @@
-h1 {
-  text-align: center;
-  margin: 20px 0;
+* {
+    box-sizing: border-box;
 }
 
-h1 a {
-  color: #7575d0;
+body {
+    padding: 0 30px;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title a {
+    color: #7575d0;
 }
 
 #app {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
 }
 
 textarea {
-  font-size: 20px;
-  line-height: 2;
-  font-family: 'Arial';
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Arial';
+}
+
+.github-link-wrap {
+    text-align: center;
+}
+
+.form {
+    margin-top: 2rem;
 }
