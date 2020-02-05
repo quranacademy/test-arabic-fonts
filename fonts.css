@@ -1007,8 +1007,14 @@
 }
 
 @font-face {
-    font-family: 'uthmanichafs1-ver09';
+    font-family: 'UthmanicHafs1-ver09';
     src: local('uthmanichafs1-ver09'), url(fonts/uthmanichafs1-ver09.otf) format('opentype');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@font-face {
+    font-family: 'UthmanicHafs1-ver13';
+    src: local('UthmanicHafs1-ver13'), url(fonts/UthmanicHafs1-ver13.otf) format('opentype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
 
