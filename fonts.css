@@ -541,6 +541,12 @@
 }
 
 @font-face {
+    font-family: 'Kitab';
+    src: url(fonts/Kitab-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'kufi';
     src: local('kufi'), url(fonts/kufi.ttf) format('truetype');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
