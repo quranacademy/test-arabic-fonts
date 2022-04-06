@@ -4,7 +4,7 @@
   </h1>
 
   <div class="github-link-wrap">
-    <a href="https://github.com/quranacademy/test-arabic-fonts" target="_blank" class="github-link">
+    <a href="https://github.com/fawazahmed0/test-arabic-fonts" target="_blank" class="github-link">
       View source on GitHub
     </a>
   </div>
@@ -12,7 +12,7 @@
   <form class="form">
     <div class="form-item">
       <label>Text for checking</label>
-      <textarea oninput={ setNewText } rows="2" dir="rtl" value={ currentText }/>
+      <textarea oninput={ setNewText } rows="2" dir="auto" value={ currentText }/>
     </div>
 
     <div class="form-item form__font-size">
@@ -32,16 +32,16 @@
     </div>
   </form>
 
-  <table class="fonts-examples bordered striped">
+  <table class="fonts-examples bordered striped" style="table-layout:fixed">
     <thead>
-      <th width="240">Font name</th>
+      <th>Font name</th>
       <th>Font example</th>
     </thead>
     <tbody>
       <tr class="fonts-example" each={ font in getFonts() }>
         <td class="fonts-example--title">{ font }</td>
-        <td class="fonts-example--example" style={ parent.getFontStyle(font) } dir="rtl">
-          <raw content={ parent.nl2br(parent.currentText) }></raw>
+        <td class="fonts-example--example" style={ parent.getFontStyle(font) } dir="auto">
+          <raw content={ parent.nl2br(parent.currentText) } style="word-wrap:break-word"></raw>
         </td>
       </tr>
     </tbody>
